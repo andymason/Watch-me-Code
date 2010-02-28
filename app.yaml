@@ -8,5 +8,7 @@ handlers:
   static_dir: javascript
 - url: /css
   static_dir: css
+- url: /images
+  static_dir: images
 - url: /.*
   script: watchmecode.py

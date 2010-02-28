@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1>Observer = {{ key }}</h1>
+    <h2 id="subtitle">Observer View</h2>
     
-    <textarea id="code" cols="90" rows="20">{{ content }}</textarea>
+    <p>
+        <textarea id="code" cols="90" rows="20">{{ content }}</textarea>
+    </p>
     
     {% include "javascript.html" %}
 

@@ -51,7 +51,23 @@
 	
 	    <!-- Wrapper. Start -->
 	    <div id="wrapper">
-    	{% block content %}{% endblock %}
+	        <h1 id="title">Watch me Code</h1>
+	        
+	        <ul id="navigation">
+	            <li>
+	                <a href="/">Home</a>
+	            </li>
+	            <li>
+	                <a href="/about/">About</a>
+	            </li>
+	            <!--
+	            <li>
+	                <a href="/">Create a new room</a>
+	            </li>
+	            -->
+	        </ul>
+	        
+        	{% block content %}{% endblock %}
     	</div>
     	<!-- Wrapper. End -->
     	
@@ -63,11 +79,14 @@
 	        <p>
 	            Powered by <a href="http://appengine.google.com/">Google App Engine</a>.
 	            All code is licenced under
-	            <a href="http://www.gnu.org/licenses/gpl-3.0.txt">GPL 3</a> and is availible on <a href="">GitHub</a>.
+	            <a href="http://www.gnu.org/licenses/gpl-3.0.txt">GPL 3</a> and is availible on <a href="http://github.com/andymason/Watch-me-Code">GitHub</a>.
             </p>
     	</div>
-    	
-    	
+    
+    
+    <script type="text/javascript" src="http://use.typekit.com/mau0hut.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
     <!-- Google Analytics -->
     <script type="text/javascript">
     var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
