@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+	<!--
+	
+    Title:      Watch Me Code HTML
+    
+    File:       base.html
+    Source:     http://watchmecode.appspot.com/
+    
+    Author:     Andrew Mason
+    Contact:    andrew @ coderonfire dot com
+    Website:    http://coderonfire.com/
+    
+    Licence:
+    
+    This file is part of Watch Me Code.
+
+    Watch Me Code is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Watch Me Code is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Watch Me Code. If not, see<http://www.gnu.org/licenses/>.
+    
+    -->
+
+	<title>Watch Me Code. Create live real-time coding rooms</title>
+	
+	<!-- Meta Tags -->
+	<meta http-equiv="content-type" content="application/xhtml+xml; charset=utf-8" />
+	<meta name="robots" content="index, follow" />
+	<meta name="description" content="Create live real-time coding rooms. Test someone&rsuo;s coding skills or show of your own to others." />
+	<meta name="author" content="Andrew Mason" />
+
+	<!-- Fav icon -->
+	<link rel="shortcut icon" href="" />
+
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/wmc.css" media="all" type="text/css" />
+    
+	</head>
+	<body>
+	
+	    <!-- Wrapper. Start -->
+	    <div id="wrapper">
+    	{% block content %}{% endblock %}
+    	</div>
+    	<!-- Wrapper. End -->
+    	
+    	<div id="footer">
+        	<p>
+        	    Built by <a href="http://coderonfire.com/">Andrew Mason</a>. All credit for the original idea to Mike of 
+        	    <a href="http://i.seemikecode.com/">i.seemikecode.com</a>.
+	        </p>
+	        <p>
+	            Powered by <a href="http://appengine.google.com/">Google App Engine</a>.
+	            All code is licenced under
+	            <a href="http://www.gnu.org/licenses/gpl-3.0.txt">GPL 3</a> and is availible on <a href="">GitHub</a>.
+            </p>
+    	</div>
+    	
+    	
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+        var pageTracker = _gat._getTracker("UA-7140127-1");
+        var pageTracker = _gat._getTracker("UA-11438002-1");
+        pageTracker._setDomainName(".coderonfire.com");
+        pageTracker._trackPageview();
+    } catch(err) {}</script>
+	</body>
+</html>

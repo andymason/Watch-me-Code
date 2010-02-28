@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>Editor ID = {{ key }}</h1>
+
+<form action="/save" method="post">
+    <input type="hidden" name="key" value="{{ key }}" />
+    <textarea id="code" cols="90" rows="20" name="content">{{ content }}</textarea>
+    <input type="submit" value="Save" />
+</form>
+
+{% include "javascript.html" %}
+
+<script type="text/javascript">
+//<![CDATA[
+    wmc.editor('{{ key }}');
+//]]>
+</script>
+
+{% endblock %}

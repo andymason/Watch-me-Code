@@ -1,0 +1,140 @@
+/*
+    Title:      Watch Me Code CSS
+    
+    File:       wmc.css
+    Source:     http://watchmecode.appspot.com/
+    
+    Author:     Andrew Mason
+    Contact:    andrew @ coderonfire dot com
+    Website:    http://coderonfire.com/
+    
+    Licence:
+    
+    This file is part of Watch Me Code.
+
+    Watch Me Code is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    Watch Me Code is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with Watch Me Code. If not, see<http://www.gnu.org/licenses/>.
+        
+
+*/
+
+/*  Reset (Credit: Eric Meyer)
+--------------------------------------------------------------------------- */
+html, body, div, span, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote,
+a, abbr, acronym, big, cite, code,
+em, img, strong, ol, ul, li,
+fieldset, form, label, legend {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+body {
+	line-height: 1;
+	color: black;
+	background: white;
+}
+ol, ul {
+	list-style: none;
+}
+
+
+
+/*  Basic HTML
+--------------------------------------------------------------------------- */
+BODY {
+    background-color: #FFF;
+    font-color: #FFF;
+    font-family: arial, sans-serif;
+    font-size: 0.83em;
+}
+
+P {
+    margin: .5em 0;
+    line-height: 1.4em;
+}
+
+
+/*  Structure
+--------------------------------------------------------------------------- */
+#wrapper {
+    width: 50em;
+    margin: 0 auto;
+    background-color: #61CBF2;
+    padding: 2em;
+    -moz-border-radius-bottomleft: 2em;
+    -moz-border-radius-bottomright: 2em;
+}
+
+
+/*  Homepage
+--------------------------------------------------------------------------- */
+H1#title {
+    text-align: center;
+    font-size: 5em;
+    font-weight: bold;
+    color: #FFF;
+    text-shadow: -1px -1px 0 rgba(0, 0, 0, 0.2);
+    letter-spacing: -0.05em;
+}
+
+
+/*  Create Project
+--------------------------------------------------------------------------- */
+
+
+
+/*  Textareas
+--------------------------------------------------------------------------- */
+
+
+
+/*  Editor
+--------------------------------------------------------------------------- */
+
+
+
+/*  Observer
+-------------------------------------------------------------------------- */
+
+
+/*  Static Pages
+--------------------------------------------------------------------------- */
+
+
+#footer {
+    width: 50em;
+    margin: 1em auto;
+    text-align: center;
+    color: #666;
+    font-size: 0.8em;
+}
+
+#footer A {
+    color: #61CBF2;
+}
+
+
+
+

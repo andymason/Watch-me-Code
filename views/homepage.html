@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1 id="title">Watch me Code</h1>
+
+<div id="intro">
+    <p>
+        <strong>Watch me Code</strong> is a live, real-time code room where one
+        person codes in their browser and another person watches in another.
+    </p>
+    
+    <p></p>
+</div>
+
+<p>
+    <form id="create_project" action="/create_project" method="post">
+        <input type="submit" value="Create links" />
+    </form>
+</p>
+
+<p>
+</p>
+
+<script type="text/javascript" src="http://use.typekit.com/mau0hut.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+{% endblock %}

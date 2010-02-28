@@ -1,0 +1,46 @@
+Title:      Watch Me Code
+Source:     http://watchmecode.appspot.com/
+
+Author:     Andrew Mason
+Contact:    andrew @ coderonfire dot com
+Website:    http://coderonfire.com/
+
+Description:
+    I came across an amazing site by Mike called http://i.seemikecode.com/
+    It allows employers to pre-screen prospective interviewees by getting
+    them to code into a text area while you view them coding in real-time.
+    
+    I'm developing my skills in JavaScript, Python and DB's. So when I
+    came across Mike's site I thought it'd be fun to reproduce it from
+    scratch. This is the result. An AJAX front-end, Python + Google App
+    engine back-end system.
+    
+    Features are a little slim at the moment as I'm just trying to get
+    the basics working right and catch all the bugs. However, I hope to
+    expand the feature set to include the following:
+    
+    Wish-list:
+        * Password protected rooms
+        * Email recipients room URLs
+        * Custom room deletion time (1day - 30 days)
+        * Remove reliance on bit.ly
+        * ..more
+
+    Feel free to use, abuse or ignore this code :-)
+
+Licence:
+
+This file is part of Watch Me Code.
+
+Watch Me Code is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Watch Me Code is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with Watch Me Code. If not, see<http://www.gnu.org/licenses/>.

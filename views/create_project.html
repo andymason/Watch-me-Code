@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Watch me Code</h1>
+    <p>
+        Editor link = <a href="/edit?project={{ project_id }}">{{ project_id }}</a><br />
+        Short Edit link = <a href="{{ edit_url }}">{{ edit_url }}</a>
+    </p>
+    
+    <p>
+        Observer link = <a href="/view?project={{ project_id }}">{{ project_id }}</a><br />
+        Short Observer link = <a href="{{ view_url }}">{{ view_url }}</a>
+    </p>
+{% endblock %}

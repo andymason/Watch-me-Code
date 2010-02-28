@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1>Observer = {{ key }}</h1>
+    
+    <textarea id="code" cols="90" rows="20">{{ content }}</textarea>
+    
+    {% include "javascript.html" %}
+
+    <script type="text/javascript">
+    //<![CDATA[
+        wmc.observer('{{ key }}');
+    //]]>
+    </script>
+
+{% endblock %}
